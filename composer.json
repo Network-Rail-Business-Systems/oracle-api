@@ -1,0 +1,19 @@
+{
+    "name": "networkrailbusinesssystems/oracle-api",
+    "description": "provide end points for oracle get and post requests",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Networkrailbusinesssystems\\OracleApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ambreen Jamal",
+            "email": "ambreen.jamal@networkrail.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
