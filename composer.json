@@ -1,19 +1,36 @@
 {
     "name": "networkrailbusinesssystems/oracle-api",
-    "description": "provide end points for oracle get and post requests",
+    "description": "Provide end points for sending and receiving data from Oracle (iStore Catalogue)",
     "type": "library",
+    "homepage": "https://github.com/Network-Rail-Business-Systems/oracle-api",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Networkrailbusinesssystems\\OracleApi\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Ambreen Jamal",
             "email": "ambreen.jamal@networkrail.co.uk"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^8",
+        "guzzlehttp/guzzle": "^7"
+    },
+    "require-dev": {
+        "illuminate/support": "^9.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Networkrailbusinesssystems\\OracleApi\\": "src/app"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Networkrailbusinesssystems\\OracleApi\\OracleApiServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
 }
