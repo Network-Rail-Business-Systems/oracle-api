@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helpers;
+namespace NetworkRailBusinessSystems\OracleApi;
 
 use ErrorException;
 use Illuminate\Http\Client\PendingRequest;

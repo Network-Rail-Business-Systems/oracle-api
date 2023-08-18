@@ -1,6 +1,6 @@
 <?php
 
-namespace AnthonyEdmonds\LaravelFind;
+namespace NetworkRailBusinessSystems\OracleApi;
 
 use Illuminate\Support\ServiceProvider;
 
