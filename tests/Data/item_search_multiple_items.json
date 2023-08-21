@@ -1,0 +1,72 @@
+{
+    "ReturnMessage": "SUCCESS",
+    "HasMore": false,
+    "CatalogItem": [
+        {
+             "ItemCode": "0004/016798",
+             "ItemDescription": "POST FENCE  INTERMDT 6 HOLE",
+             "ItemYourPrice": null,
+             "Status": "NR SUPER",
+             "PackSize": "1",
+            "IBECustomAttribute15": null,
+            "ConfigurableItem": null,
+            "ItemPrimaryUOMCode": null,
+            "MiniSiteName": "Non-Heavy Products"
+        },
+        {
+            "ItemCode": "0005/016798",
+            "ItemDescription": "FENCE  INTERMDT 6 HOLE",
+            "ItemYourPrice": 50.95,
+            "Status": "NR SUPER",
+            "PackSize": "1",
+            "IBECustomAttribute15": null,
+            "ConfigurableItem": null,
+            "ItemPrimaryUOMCode": "Ounce",
+            "MiniSiteName": "Non-Heavy Products"
+        },
+        {
+            "ItemCode": "6485/254985",
+            "ItemDescription": "A multiple pack item",
+            "ItemYourPrice": 999.99,
+            "Status": "NR SUPER",
+            "PackSize": "16",
+            "IBECustomAttribute15": null,
+            "ConfigurableItem": "text",
+            "ItemPrimaryUOMCode": "Gramme",
+            "MiniSiteName": "Non-Heavy Products"
+        },
+        {
+            "ItemCode": "7895/658974",
+            "ItemDescription": "A configureable item",
+            "ItemYourPrice": 999.99,
+            "Status": "NR SUPER",
+            "PackSize": "16",
+            "IBECustomAttribute15": null,
+            "ConfigurableItem": "text",
+            "ItemPrimaryUOMCode": "Kiloton",
+            "MiniSiteName": "Non-Heavy Products"
+        },
+        {
+            "ItemCode": "0111/113470",
+            "ItemDescription": "A discontinued item",
+            "ItemYourPrice": null,
+            "Status": "NR SUPER",
+            "PackSize": "1",
+            "IBECustomAttribute15": "This item has been discontinued",
+            "ConfigurableItem": null,
+            "ItemPrimaryUOMCode": null,
+            "MiniSiteName": "Non-Heavy Products"
+        },
+        {
+            "ItemCode": "0004/131420",
+            "ItemDescription": "LID REDUCED WEIGHT LID FOR C/1/7LRW",
+            "ItemYourPrice": 6.85,
+            "Status": "Active",
+            "PackSize": "1",
+            "IBECustomAttribute15": null,
+            "ConfigurableItem": null,
+            "ItemPrimaryUOMCode": "Ea",
+            "MiniSiteName": "Sleeper & Troughing Products"
+        }
+    ]
+}

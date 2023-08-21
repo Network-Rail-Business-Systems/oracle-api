@@ -19,6 +19,5 @@ class OracleApiServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/oracle-api-config.php' => config_path('oracle-api.php'),
         ], 'oracle-api');
-
     }
 }
