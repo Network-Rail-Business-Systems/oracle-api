@@ -62,9 +62,9 @@ class SubmitOrderToOracleTest extends TestCase
 
         Config::set('oracle-api.enabled', false);
 
-        Config::set('oracle-catalogue.url', 'http://fake.test');
-        Config::set('oracle-catalogue.username', 'fake-token');
-        Config::set('oracle-catalogue.password', 'fake-password');
+        Config::set('oracle-api.url', 'http://fake.test');
+        Config::set('oracle-api.username', 'fake-token');
+        Config::set('oracle-api.password', 'fake-password');
     }
 
     public function testSubmitOrderToOracle()

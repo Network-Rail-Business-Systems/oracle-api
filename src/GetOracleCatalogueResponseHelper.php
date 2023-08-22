@@ -9,7 +9,7 @@ class GetOracleCatalogueResponseHelper
 {
     public static function fakeSearch(string $fileName = 'item_search_multiple_items'): Collection
     {
-        $file = dirname(__DIR__, 2)."/tests/Data/OracleCatalogue/{$fileName}.json";
+        $file = dirname(__DIR__, 1)."/tests/Data/{$fileName}.json";
 
         $data = file_get_contents($file);
 

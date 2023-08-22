@@ -13,9 +13,9 @@ class SearchTest extends TestCase
     {
         parent::setUp();
 
-        Config::set('oracle-catalogue.url', 'http://fake.test');
-        Config::set('oracle-catalogue.username', 'fake-token');
-        Config::set('oracle-catalogue.password', 'fake-password');
+        Config::set('oracle-api.url', 'http://fake.test');
+        Config::set('oracle-api.username', 'fake-token');
+        Config::set('oracle-api.password', 'fake-password');
     }
 
     public function testSearch()
