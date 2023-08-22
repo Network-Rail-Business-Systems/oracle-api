@@ -1,5 +1,5 @@
 # Oracle api.
-Api for searching and submitting orders for iStore catalogue items.
+This api is for searching and ordering iStore catalogue items, used by rail component ordering system (rcos).
 
 Built for [Laravel 10](https://laravel.com/).
 
