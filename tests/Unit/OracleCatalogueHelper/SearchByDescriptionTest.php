@@ -2,9 +2,9 @@
 
 namespace NetworkRailBusinessSystems\OracleApi\Tests\Unit\OracleCatalogueHelper;
 
-use NetworkRailBusinessSystems\OracleApi\OracleCatalogueHelper;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;
+use NetworkRailBusinessSystems\OracleApi\OracleCatalogueHelper;
 use NetworkRailBusinessSystems\OracleApi\Tests\TestCase;
 
 class SearchByDescriptionTest extends TestCase

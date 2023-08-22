@@ -2,9 +2,9 @@
 
 namespace NetworkRailBusinessSystems\OracleApi\Tests\Unit\OracleCatalogueHelper;
 
-use NetworkRailBusinessSystems\OracleApi\OracleCatalogueHelper;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;
+use NetworkRailBusinessSystems\OracleApi\OracleCatalogueHelper;
 use NetworkRailBusinessSystems\OracleApi\Tests\TestCase;
 
 class SubmitOrderToOracleTest extends TestCase
@@ -31,7 +31,7 @@ class SubmitOrderToOracleTest extends TestCase
                 'CustomerName' => 'HOLDATBASINGSTOKERDC',
                 'ShipmentAddress' => [
                     'AddressLine1' => 'HOLDATBASINGSTOKERDC',
-                    'AddressLine2' => "Oliver Anderson-01234567890-PRO123",
+                    'AddressLine2' => 'Oliver Anderson-01234567890-PRO123',
                     'City' => 'Basingstoke',
                     'County' => 'Basingstoke',
                     'PostalCode' => 'MK9 1EN',

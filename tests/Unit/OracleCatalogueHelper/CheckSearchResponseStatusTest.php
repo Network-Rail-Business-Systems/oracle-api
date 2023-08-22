@@ -2,8 +2,8 @@
 
 namespace NetworkRailBusinessSystems\OracleApi\Tests\Unit\OracleCatalogueHelper;
 
-use NetworkRailBusinessSystems\OracleApi\OracleCatalogueHelper;
 use ErrorException;
+use NetworkRailBusinessSystems\OracleApi\OracleCatalogueHelper;
 use NetworkRailBusinessSystems\OracleApi\Tests\TestCase;
 
 class CheckSearchResponseStatusTest extends TestCase
