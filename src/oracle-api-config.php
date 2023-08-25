@@ -13,7 +13,7 @@ return [
         ''
     ),
 
-    'username' => env('ORACLE_CATALOGUE_USERNAME', 'RCOS'),
+    'username' => env('ORACLE_CATALOGUE_USERNAME', ''),
 
     'password' => env('ORACLE_CATALOGUE_PASSWORD', ''),
 ];
