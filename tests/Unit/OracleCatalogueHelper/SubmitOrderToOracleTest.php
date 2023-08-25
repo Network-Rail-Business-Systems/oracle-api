@@ -60,7 +60,7 @@ class SubmitOrderToOracleTest extends TestCase
             ],
         ];
 
-        Config::set('oracle-api.enabled', true);
+        Config::set('oracle-api.enabled', false);
 
         Config::set('oracle-api.url', 'http://fake.test');
         Config::set('oracle-api.username', 'fake-token');
