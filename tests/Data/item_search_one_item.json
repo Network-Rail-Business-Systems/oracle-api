@@ -1,0 +1,17 @@
+{
+    "ReturnMessage": "SUCCESS",
+    "HasMore": false,
+    "CatalogItem": [
+        {
+            "ItemCode": "0004/016798",
+            "ItemDescription": "POST FENCE  INTERMDT 6 HOLE",
+            "ItemYourPrice": null,
+            "Status": "NR SUPER",
+            "PackSize": "1",
+            "IBECustomAttribute15": null,
+            "ConfigurableItem": null,
+            "ItemPrimaryUOMCode": "Tonne",
+            "MiniSiteName": "Non-Heavy Products"
+        }
+    ]
+}

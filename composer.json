@@ -11,21 +11,29 @@
         }
     ],
     "require": {
-        "php": "^8",
-        "guzzlehttp/guzzle": "^7"
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7",
+        "illuminate/support": "^10"
     },
     "require-dev": {
-        "illuminate/support": "^9.9"
+        "laravel/pint": "^1.7",
+        "orchestra/testbench": "^8",
+        "phpunit/phpunit": "^10"
     },
     "autoload": {
         "psr-4": {
-            "Networkrailbusinesssystems\\OracleApi\\": "src/app"
+            "NetworkRailBusinessSystems\\OracleApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NetworkRailBusinessSystems\\OracleApi\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Networkrailbusinesssystems\\OracleApi\\OracleApiServiceProvider"
+                "NetworkRailBusinessSystems\\OracleApi\\OracleApiServiceProvider"
             ]
         }
     },
